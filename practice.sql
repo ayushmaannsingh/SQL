@@ -25,7 +25,6 @@ WHERE salary > 55000;
 ALTER TABLE teacher
 CHANGE COLUMN salary ctc INT;
 
-
 ALTER TABLE teacher 
 ADD COLUMN city VARCHAR(50) DEFAULT "Ranchi";
 
