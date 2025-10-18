@@ -8,6 +8,7 @@ CREATE TABLE Customers (
 );
 
 -- Insert data into the Customers table
+
 INSERT INTO Customers (CustomerID, FirstName, LastName, City)
 VALUES (1, 'John', 'Doe', 'New York');
 
