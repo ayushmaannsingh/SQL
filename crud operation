@@ -13,9 +13,11 @@ INSERT INTO Customers (CustomerID, FirstName, LastName, City)
 VALUES (1, 'John', 'Doe', 'New York');
 
 -- Select all data from the Customers table
+
 SELECT * FROM Customers;
 
 -- Update a customer's city
+
 UPDATE Customers
 SET City = 'Los Angeles'
 WHERE CustomerID = 1;
