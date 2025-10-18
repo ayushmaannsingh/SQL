@@ -1,0 +1,23 @@
+-- Create a new table
+CREATE TABLE Customers (
+    CustomerID INT PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    City VARCHAR(50)
+);
+
+-- Insert data into the Customers table
+INSERT INTO Customers (CustomerID, FirstName, LastName, City)
+VALUES (1, 'John', 'Doe', 'New York');
+
+-- Select all data from the Customers table
+SELECT * FROM Customers;
+
+-- Update a customer's city
+UPDATE Customers
+SET City = 'Los Angeles'
+WHERE CustomerID = 1;
+
+-- Delete a customer
+DELETE FROM Customers
+WHERE CustomerID = 1;
